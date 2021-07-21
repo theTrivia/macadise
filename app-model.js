@@ -8,7 +8,7 @@ const appSchema = new Schema({
     },
     percent:{
         type : Number,
-        required : true,
+        // required : true,
     },
     countSince30Days:{
         type : Number,
