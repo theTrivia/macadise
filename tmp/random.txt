@@ -1,0 +1,4 @@
+#!/bin/zsh
+brew install chrome
+brew install firefox
+brew install nodejs

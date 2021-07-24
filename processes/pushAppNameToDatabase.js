@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const App = require('../models/app-model');
 
 
-//this method fetches the cask names from homebrew website.
+/* this method fetches the cask names from homebrew website. */
 async function getformulaeapplist(){
     const apps = await fetch('https://formulae.brew.sh/api/analytics/cask-install/30d.json');
     let response = await apps.json();
